@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+
+.navbar{
+    display: flex;
+    position: relative;
+    background-color: red;
+    height: 43px;
+    align-items: center;
+    
+}
+.logo{
+    margin: 25px;
+    padding: 11px;
+    font-weight: 500;
+}
+.logo:hover{
+    cursor: pointer;
+   
+    zoom: 1.2;
+}
+
+
+
+
+.mainbar{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.mainbar ul{
+    display: flex;
+    gap: 99px;
+    padding: 2px;
+    margin: 2px;
+    list-style-type: none;
+    
+}
+
+.mainbar ul li{
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+
+
+
+.mainbar ul li:hover{
+    cursor: pointer;
+    background-color: rgb(179, 179, 179);
+    border-radius: 8px;
+    
+}
+
+
+
+
+
+
+
+.searchbar{
+    margin-right: 20px;
+    position: absolute;
+    left:90%
+}
+.searchbar:hover{
+    cursor: pointer;
+   zoom: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
